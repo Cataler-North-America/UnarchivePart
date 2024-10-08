@@ -366,6 +366,7 @@ namespace UnarchivePart.dsSCADATableAdapters {
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual object sp_FindPartForUnarchive(string @vtlot, string @part, ref string @tableLocation) {
             global::System.Data.SqlClient.SqlCommand command = ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[2]));
+            command.CommandTimeout = 0;
             if ((@vtlot == null)) {
                 command.Parameters[1].Value = global::System.DBNull.Value;
             }

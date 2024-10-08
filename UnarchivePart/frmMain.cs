@@ -94,8 +94,10 @@ namespace UnarchivePart
         {
             nudSubstId.Value = 10000000;
             nudSubstId.Text = "";
+            nudSubstId.Enabled = true;
             nudVTLot.Value = 10000000;
             nudVTLot.Text = "";
+            nudVTLot.Enabled = true;
             txtTableName.Clear();
             txtTableName.Visible = false;
             lblTableName.Visible = false;

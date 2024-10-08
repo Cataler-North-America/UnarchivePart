@@ -88,7 +88,8 @@
             this.lblInformation.Size = new System.Drawing.Size(815, 87);
             this.lblInformation.TabIndex = 3;
             this.lblInformation.Text = "Please provide a VT Lot Number and Substrate ID for unarchiving purposes\r\nAfter e" +
-    "ntering these, please press Tab\r\nThis could take a couple minutes, please wait";
+    "ntering these, please press Tab\r\nThis could take a couple minutes, especially if" +
+    " not archived, please wait";
             this.lblInformation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblVTLot

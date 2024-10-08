@@ -26,8 +26,8 @@ namespace UnarchivePart.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=leir;Initial Catalog=SCADA;Persist Security Info=True;User ID=pesread" +
-            "er;Password=redaersep")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=leir;Initial Catalog=SCADA;Persist Security Info=True;User ID=pdbuser" +
+            ";Password=resubdp")]
         public string csLeirScada {
             get {
                 return ((string)(this["csLeirScada"]));
